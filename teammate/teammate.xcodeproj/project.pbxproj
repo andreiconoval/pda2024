@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA18B8132BD312AB00438826 /* SquadPlayerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */; };
+		AA18B8142BD312AB00438826 /* SquadPlayerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */; };
 		AAA22BD82BD1AADE0062E2A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BD72BD1AADE0062E2A5 /* AppDelegate.swift */; };
 		AAA22BDA2BD1AADE0062E2A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BD92BD1AADE0062E2A5 /* SceneDelegate.swift */; };
 		AAA22BDC2BD1AADE0062E2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BDB2BD1AADE0062E2A5 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadPlayerViewCell.swift; sourceTree = "<group>"; };
+		AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquadPlayerViewCell.xib; sourceTree = "<group>"; };
 		AAA22BD42BD1AADE0062E2A5 /* teammate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teammate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA22BD72BD1AADE0062E2A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA22BD92BD1AADE0062E2A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		AAA22BF62BD1B9170062E2A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */,
+				AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +177,7 @@
 			files = (
 				AAA22BE12BD1AADF0062E2A5 /* Assets.xcassets in Resources */,
 				AAA22BE42BD1AADF0062E2A5 /* Base in Resources */,
+				AA18B8132BD312AB00438826 /* SquadPlayerViewCell.xib in Resources */,
 				AAA22BDF2BD1AADE0062E2A5 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +191,7 @@
 			files = (
 				AAA22BEE2BD1B4500062E2A5 /* Team.swift in Sources */,
 				AAA22BFA2BD1BCA80062E2A5 /* PlayersViewController.swift in Sources */,
+				AA18B8142BD312AB00438826 /* SquadPlayerViewCell.swift in Sources */,
 				AAA22BDC2BD1AADE0062E2A5 /* ViewController.swift in Sources */,
 				AAA22BF22BD1B5290062E2A5 /* APIFootballClient.swift in Sources */,
 				AAA22BF02BD1B4B10062E2A5 /* SquadPlayer.swift in Sources */,

@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func showTeam(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let secondController = storyboard.instantiateViewController(withIdentifier: "playersViewController")
+        secondController.loadViewIfNeeded()
+        self.present(secondController, animated: true, completion: nil)
+    }
+    
 }
 
