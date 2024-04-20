@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <teams>
+         <id>108</id>
+         <name>FC Internazionale Milano</name>
+         <shortName>Inter</shortName>
+         <tla>INT</tla>
+         <crest>https://crests.football-data.org/108.png</crest>
+         <address>Corso Vittorio Emanuele II 9 Milano 20122</address>
+         <website>http://www.inter.it</website>
+         <founded>1908</founded>
+         <clubColors>Blue / Black</clubColors>
+         <venue>Stadio Giuseppe Meazza</venue>
+         <lastUpdated>2021-11-24T14:55:58Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>109</id>
+         <name>Juventus FC</name>
+         <shortName>Juventus</shortName>
+         <tla>JUV</tla>
+         <crest>https://crests.football-data.org/109.png</crest>
+         <address>Corso Galileo Ferraris, 32 Torino 10128</address>
+         <website>http://www.juventus.com</website>
+         <founded>1897</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Allianz Stadium</venue>
+         <lastUpdated>2024-04-09T16:20:37Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>110</id>
+         <name>SS Lazio</name>
+         <shortName>Lazio</shortName>
+         <tla>LAZ</tla>
+         <crest>https://crests.football-data.org/110.png</crest>
+         <address>Via di Santa Cornelia, 1000 Formello 00060</address>
+         <website>http://www.sslazio.it</website>
+         <founded>1900</founded>
+         <clubColors>White / Sky Blue</clubColors>
+         <venue>Stadio Olimpico</venue>
+         <lastUpdated>2024-04-09T16:20:32Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>112</id>
+         <name>Parma Calcio 1913</name>
+         <shortName>Parma</shortName>
+         <tla>PAR</tla>
+         <crest>https://crests.football-data.org/112.png</crest>
+         <address>Strada Carlo Pisacane, 4 Parma 43121</address>
+         <website>http://www.parmacalcio1913.com</website>
+         <founded>1913</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Stadio Ennio Tardini</venue>
+         <lastUpdated>2022-03-20T17:52:09Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>113</id>
+         <name>SSC Napoli</name>
+         <shortName>Napoli</shortName>
+         <tla>NAP</tla>
+         <crest>https://crests.football-data.org/113.png</crest>
+         <address>Centro Tecnico di Castel Volturno, Via S.S. Domitana, Km 35 Castel Volturno 81030</address>
+         <website>http://www.sscnapoli.it</website>
+         <founded>1904</founded>
+         <clubColors>Sky Blue / White</clubColors>
+         <venue>Stadio San Paolo</venue>
+         <lastUpdated>2024-04-09T16:20:29Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>114</id>
+         <name>Palermo FC</name>
+         <shortName>Palermo</shortName>
+         <tla>PAL</tla>
+         <crest>https://crests.football-data.org/114.png</crest>
+         <address>Viale del Fante, 11 Palermo 90146</address>
+         <website>http://www.ilpalermocalcio.it</website>
+         <founded>1898</founded>
+         <clubColors>Pink / Black</clubColors>
+         <venue>Stadio Renzo Barbera</venue>
+         <lastUpdated>2022-07-19T17:24:27Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>115</id>
+         <name>Udinese Calcio</name>
+         <shortName>Udinese</shortName>
+         <tla>UDI</tla>
+         <crest>https://crests.football-data.org/115.png</crest>
+         <address>Via Agostino e Angelo Candolini 2 Udine 33100</address>
+         <website>http://www.udinese.it</website>
+         <founded>1896</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Dacia Arena</venue>
+         <lastUpdated>2022-02-24T07:45:52Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>196</id>
+         <name>SG Wattenscheid 09</name>
+         <shortName>Wattenscheid</shortName>
+         <tla>SGW</tla>
+         <crest>https://crests.football-data.org/196.png</crest>
+         <address>Lohrheidestraße 82 Bochum-Wattenscheid 44866</address>
+         <website>http://www.sgwattenscheid09.de</website>
+         <founded>1909</founded>
+         <clubColors>White / Black</clubColors>
+         <venue></venue>
+         <lastUpdated>2023-05-19T08:25:04Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>198</id>
+         <name>FSV Zwickau</name>
+         <shortName>Zwickau</shortName>
+         <tla>ZWI</tla>
+         <crest>https://crests.football-data.org/198.png</crest>
+         <address>Geinitzstr. 22 Zwickau 08056</address>
+         <website>http://www.fsv-zwickau.de</website>
+         <founded>1912</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Stadion Zwickau</venue>
+         <lastUpdated>2022-07-22T08:45:33Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>200</id>
+         <name>ASC Daco-Getica București</name>
+         <shortName>Daco-Getica</shortName>
+         <tla>DAC</tla>
+         <crest></crest>
+         <address>Soseaua Fundeni nr. 243 Bucureşti Sector 2</address>
+         <website></website>
+         <founded>1992</founded>
+         <clubColors>White / Black</clubColors>
+         <venue></venue>
+         <lastUpdated>2021-07-05T16:41:08Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>201</id>
+         <name>Carrick Rangers FC</name>
+         <shortName>Carrick</shortName>
+         <tla>CAR</tla>
+         <crest>https://crests.football-data.org/201.png</crest>
+         <address>null Carrickfergus, Co. Antrim null</address>
+         <website>http://www.carrickrangers.co.uk</website>
+         <founded>1939</founded>
+         <clubColors>Black / Orange</clubColors>
+         <venue>Belfast Loughshore Hotel Arena</venue>
+         <lastUpdated>2022-11-16T12:52:50Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>204</id>
+         <name>SC Fortuna Köln</name>
+         <shortName>Fortuna Köln</shortName>
+         <tla>FOR</tla>
+         <crest>https://crests.football-data.org/204.png</crest>
+         <address>Am Vorgebirgstor 2 Köln 50679</address>
+         <website>http://www.fortuna-koeln.de</website>
+         <founded>1948</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Südstadion</venue>
+         <lastUpdated>2023-05-19T08:26:36Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>209</id>
+         <name>Mannheim</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest></crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-07-05T16:41:50Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>213</id>
+         <name>SV Reutlingen 1905</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest></crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-01-12T17:45:36Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>215</id>
+         <name>Schweinfurt</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest></crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-07-05T16:45:59Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>217</id>
+         <name>Eintracht Trier</name>
+         <shortName>Trier</shortName>
+         <tla></tla>
+         <crest>https://crests.football-data.org/217.png</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2023-04-07T10:05:11Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>220</id>
+         <name>VfB Lübeck</name>
+         <shortName>Lübeck</shortName>
+         <tla>LUB</tla>
+         <crest>https://crests.football-data.org/220.png</crest>
+         <address>Bei der Lohmühle 13 Lübeck 23554</address>
+         <website>http://www.vfb-luebeck.de</website>
+         <founded>1919</founded>
+         <clubColors>Green / White</clubColors>
+         <venue>Stadion an der Lohmühle</venue>
+         <lastUpdated>2023-07-30T22:54:47Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>225</id>
+         <name>Sportfreunde Siegen</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest></crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-01-12T17:52:15Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>235</id>
+         <name>Oldenburg</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest></crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-07-05T16:58:17Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>237</id>
+         <name>Albacete Balompié</name>
+         <shortName>Albacete</shortName>
+         <tla>ALB</tla>
+         <crest>https://crests.football-data.org/237.png</crest>
+         <address>Prolongación de la Avenida de España, s/n Albacete 02006</address>
+         <website>http://www.albacetebalompie.es</website>
+         <founded>1940</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Estadio Carlos Belmonte</venue>
+         <lastUpdated>2022-07-26T17:35:15Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>247</id>
+         <name>CD Logrones</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest></crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-07-05T18:20:27Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>250</id>
+         <name>Real Valladolid CF</name>
+         <shortName>Valladolid</shortName>
+         <tla>VDD</tla>
+         <crest>https://crests.football-data.org/250.png</crest>
+         <address>Avenida del Mundial, 82 Valladolid 47014</address>
+         <website>http://www.realvalladolid.es</website>
+         <founded>1928</founded>
+         <clubColors>Violet / White</clubColors>
+         <venue>Estadio Municipal José Zorrilla</venue>
+         <lastUpdated>2022-02-19T09:12:57Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>254</id>
+         <name>CD Tenerife</name>
+         <shortName>CD Tenerife</shortName>
+         <tla>TEN</tla>
+         <crest>https://crests.football-data.org/254.png</crest>
+         <address>Callejon del Combate, 1 Santa Cruz de Tenerife 38002</address>
+         <website>http://www.clubdeportivotenerife.es</website>
+         <founded>1912</founded>
+         <clubColors>White / Blue</clubColors>
+         <venue>Estadio Heliodoro Rodríguez Lopéz</venue>
+         <lastUpdated>2022-02-19T08:50:55Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>258</id>
+         <name>Real Murcia CF</name>
+         <shortName>Real Murcia</shortName>
+         <tla>MUR</tla>
+         <crest>http://upload.wikimedia.org/wikipedia/de/a/ae/Real_Murcia.svg</crest>
+         <address>Avenida del Estadio, s/n Murcia 30110</address>
+         <website>http://www.realmurcia.es</website>
+         <founded>1908</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Estadio Nueva Condomina</venue>
+         <lastUpdated>2020-04-16T04:12:07Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>260</id>
+         <name>CD Numancia</name>
+         <shortName>Numancia</shortName>
+         <tla>NUM</tla>
+         <crest>http://upload.wikimedia.org/wikipedia/en/0/07/CD_Numancia_logo.svg</crest>
+         <address>Avenida de Mariano Vicén, 16 Soria 42003</address>
+         <website>http://www.cdnumancia.com</website>
+         <founded>1945</founded>
+         <clubColors>Red / Blue</clubColors>
+         <venue>Nuevo Estadio Los Pajaritos</venue>
+         <lastUpdated>2021-02-08T10:09:57Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>263</id>
+         <name>Deportivo Alavés</name>
+         <shortName>Alavés</shortName>
+         <tla>ALA</tla>
+         <crest>https://crests.football-data.org/263.png</crest>
+         <address>Mendizorroza, Paseo Cervantes, s/n Vitoria 01007</address>
+         <website>http://www.alaves.com</website>
+         <founded>1921</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Estadio de Mendizorroza</venue>
+         <lastUpdated>2022-02-19T08:23:45Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>264</id>
+         <name>Cádiz CF</name>
+         <shortName>Cádiz CF</shortName>
+         <tla>CAD</tla>
+         <crest>https://crests.football-data.org/264.png</crest>
+         <address>Plaza de Madrid, s/n Cádiz 11010</address>
+         <website>http://www.cadizcf.com</website>
+         <founded>1910</founded>
+         <clubColors>Yellow / Blue</clubColors>
+         <venue>Estadio Ramón de Carranza</venue>
+         <lastUpdated>2022-02-19T08:55:59Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>267</id>
+         <name>UD Almería</name>
+         <shortName>Almería</shortName>
+         <tla>ALM</tla>
+         <crest>https://crests.football-data.org/267.png</crest>
+         <address>Calle Alcalde Santiago Martínez Cabrejas, 5 Almería 04007</address>
+         <website>http://www.udalmeriasad.com</website>
+         <founded>1989</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Estadio de los Juegos Mediterráneos</venue>
+         <lastUpdated>2022-08-16T12:47:01Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>268</id>
+         <name>Deportivo Xerez</name>
+         <shortName></shortName>
+         <tla>XER</tla>
+         <crest>https://crests.football-data.org/268.png</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2023-06-09T15:55:16Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>269</id>
+         <name>Hércules de Alicante CF</name>
+         <shortName>Hércules</shortName>
+         <tla>HER</tla>
+         <crest>http://upload.wikimedia.org/wikipedia/en/8/8a/H%C3%A9rcules_cf_200px.png</crest>
+         <address>Calle Foguerer Romeu Zarandieta, s/n Alicante 03005</address>
+         <website>http://www.herculesdealicantecf.net</website>
+         <founded>1922</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Estadio José Rico Pérez</venue>
+         <lastUpdated>2020-04-16T04:12:16Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>270</id>
+         <name>Mérida AD</name>
+         <shortName>Mérida</shortName>
+         <tla>MER</tla>
+         <crest>https://crests.football-data.org/270.png</crest>
+         <address>Villafranca de los Barros Mérida 06800</address>
+         <website>http://www.admerida.es</website>
+         <founded>1912</founded>
+         <clubColors></clubColors>
+         <venue>Estadio Romano</venue>
+         <lastUpdated>2023-01-11T08:20:06Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>272</id>
+         <name>Extremadura CF</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest>https://crests.football-data.org/272.png</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2023-09-04T09:56:53Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>275</id>
+         <name>UD Las Palmas</name>
+         <shortName>Las Palmas</shortName>
+         <tla>LPA</tla>
+         <crest>https://crests.football-data.org/275.png</crest>
+         <address>Calle Pío XII, 29 Las Palmas de Gran Canaria 35005</address>
+         <website>http://www.udlaspalmas.es</website>
+         <founded>1949</founded>
+         <clubColors>Yellow / Blue</clubColors>
+         <venue>Estadio de Gran Canaria</venue>
+         <lastUpdated>2022-02-19T08:43:46Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>278</id>
+         <name>SD Eibar</name>
+         <shortName>Eibar</shortName>
+         <tla>EIB</tla>
+         <crest>https://crests.football-data.org/278.svg</crest>
+         <address>Ipurua Kalea, 2 Eibar 20600</address>
+         <website>http://www.sdeibar.com</website>
+         <founded>1940</founded>
+         <clubColors>Red / Blue</clubColors>
+         <venue>Estadio Municipal de Ipurúa</venue>
+         <lastUpdated>2021-02-08T10:10:10Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>279</id>
+         <name>CD Toledo</name>
+         <shortName>Toledo</shortName>
+         <tla>TOL</tla>
+         <crest>https://crests.football-data.org/279.png</crest>
+         <address>Salto del Caballo s/n Toledo 45003</address>
+         <website>http://www.cdtoledo.es</website>
+         <founded>1928</founded>
+         <clubColors>Green / White</clubColors>
+         <venue></venue>
+         <lastUpdated>2023-09-04T09:58:32Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>280</id>
+         <name>Club Lleida Esportiu</name>
+         <shortName>Lleida</shortName>
+         <tla>LLE</tla>
+         <crest>https://crests.football-data.org/280.png</crest>
+         <address>null Lleida null</address>
+         <website>http://www.lleidaesportiu.cat</website>
+         <founded>1939</founded>
+         <clubColors></clubColors>
+         <venue>Camp d'Esports de Lleida</venue>
+         <lastUpdated>2023-01-11T08:20:04Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>281</id>
+         <name>Ath Madrid B</name>
+         <shortName></shortName>
+         <tla>ATL</tla>
+         <crest>https://crests.football-data.org/281.png</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2023-09-04T10:10:55Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>284</id>
+         <name>Orense</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest>https://crests.football-data.org/284.png</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2023-09-04T10:05:57Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>285</id>
+         <name>Elche CF</name>
+         <shortName>Elche</shortName>
+         <tla>ELC</tla>
+         <crest>https://crests.football-data.org/285.png</crest>
+         <address>Avenida Manuel Martínez Valero, 3 Elche 03208</address>
+         <website>http://www.elchecf.es</website>
+         <founded>1923</founded>
+         <clubColors>White / Green</clubColors>
+         <venue>Estadio Manuel Martínez Valero</venue>
+         <lastUpdated>2022-02-24T07:42:28Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>286</id>
+         <name>SD Ponferradina</name>
+         <shortName>Ponferradina</shortName>
+         <tla>PON</tla>
+         <crest>https://crests.football-data.org/286.png</crest>
+         <address>Calle El Toralín, s/n Ponferrada 24404</address>
+         <website>http://www.sdponferradina.com</website>
+         <founded>1922</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Estadio El Toralín</venue>
+         <lastUpdated>2022-02-19T09:34:03Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>289</id>
+         <name>Real Madrid Castilla</name>
+         <shortName>Madrid Castilla</shortName>
+         <tla></tla>
+         <crest>http://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-07-05T18:23:13Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>295</id>
+         <name>Córdoba CF</name>
+         <shortName>Córdoba</shortName>
+         <tla>COR</tla>
+         <crest>https://crests.football-data.org/295.png</crest>
+         <address>Avenida del Arcángel s/n Córdoba 14010</address>
+         <website>http://www.cordobacf.com</website>
+         <founded>1954</founded>
+         <clubColors>White / Green</clubColors>
+         <venue>Estadio Nuevo Arcángel</venue>
+         <lastUpdated>2023-07-31T12:05:06Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>298</id>
+         <name>Girona FC</name>
+         <shortName>Girona</shortName>
+         <tla>GIR</tla>
+         <crest>https://crests.football-data.org/298.png</crest>
+         <address>Avinguda de Montilivi, 141 Girona 17003</address>
+         <website>http://www.gironafc.cat</website>
+         <founded>1930</founded>
+         <clubColors>Red / White / Blue</clubColors>
+         <venue>Estadi Municipal de Montilivi</venue>
+         <lastUpdated>2022-08-16T12:47:06Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>299</id>
+         <name>SD Huesca</name>
+         <shortName>Huesca</shortName>
+         <tla>HUE</tla>
+         <crest>https://crests.football-data.org/299.svg</crest>
+         <address>Calle Cocoron, s/n Huesca 22004</address>
+         <website>http://www.sdhuesca.es</website>
+         <founded>1910</founded>
+         <clubColors>Crimson / Navy Blue</clubColors>
+         <venue>Estadio El Alcoraz</venue>
+         <lastUpdated>2021-04-09T02:25:57Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>300</id>
+         <name>FC Cartagena</name>
+         <shortName>Cartagena</shortName>
+         <tla>CAR</tla>
+         <crest>https://crests.football-data.org/300.png</crest>
+         <address>Avenida Dr. Luis Calandre s/n Cartagena 30205</address>
+         <website>http://www.futbolclubcartagena.com</website>
+         <founded>1995</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Estadio Municipal Cartagonova</venue>
+         <lastUpdated>2022-07-26T17:35:10Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>302</id>
+         <name>FC Villarreal B</name>
+         <shortName>Villarreal B</shortName>
+         <tla>VIL</tla>
+         <crest>https://crests.football-data.org/302.png</crest>
+         <address>null Villarreal null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2022-08-18T17:32:18Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>303</id>
+         <name>FC Barcelona B</name>
+         <shortName>FC Barcelona B</shortName>
+         <tla>FCB</tla>
+         <crest>https://crests.football-data.org/81.svg</crest>
+         <address>Avenida Arístides Maillol s/n Barcelona 08028</address>
+         <website>http://www.fcbarcelona.com</website>
+         <founded>1899</founded>
+         <clubColors>Red / Navy Blue / Orange</clubColors>
+         <venue>Mini Estadi</venue>
+         <lastUpdated>2023-09-04T12:48:08Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>304</id>
+         <name>AD Alcorcón</name>
+         <shortName>AD Alcorcón</shortName>
+         <tla>ALC</tla>
+         <crest>https://crests.football-data.org/304.png</crest>
+         <address>Avenida Pablo Iglesias, s/n Alcorcón 28922</address>
+         <website>http://www.adalcorcon.com</website>
+         <founded>1971</founded>
+         <clubColors>Yellow / Blue</clubColors>
+         <venue>Estadio Santo Domingo</venue>
+         <lastUpdated>2023-07-06T17:32:33Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>314</id>
+         <name>Écija Balompié</name>
+         <shortName></shortName>
+         <tla>ÉCI</tla>
+         <crest>https://crests.football-data.org/314.png</crest>
+         <address>null Balompié null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2023-09-04T10:07:14Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>322</id>
+         <name>Hull City AFC</name>
+         <shortName>Hull City</shortName>
+         <tla>HUL</tla>
+         <crest>https://crests.football-data.org/322.png</crest>
+         <address>Walton Street Hull HU3 6HU</address>
+         <website>http://www.hullcitytigers.com</website>
+         <founded>1904</founded>
+         <clubColors>Orange / Black</clubColors>
+         <venue>Kingston Communications Stadium</venue>
+         <lastUpdated>2022-02-22T14:19:00Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>325</id>
+         <name>Portsmouth FC</name>
+         <shortName>Portsmouth</shortName>
+         <tla>POR</tla>
+         <crest>https://crests.football-data.org/325.png</crest>
+         <address>Frogmore Road Portsmouth PO4 8RA</address>
+         <website>http://www.portsmouthfc.co.uk</website>
+         <founded>1898</founded>
+         <clubColors></clubColors>
+         <venue>Fratton Park</venue>
+         <lastUpdated>2023-03-05T07:34:10Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>328</id>
+         <name>Burnley FC</name>
+         <shortName>Burnley</shortName>
+         <tla>BUR</tla>
+         <crest>https://crests.football-data.org/328.png</crest>
+         <address>Harry Potts Way Burnley BB10 4BX</address>
+         <website>http://www.burnleyfootballclub.com</website>
+         <founded>1881</founded>
+         <clubColors>Claret / Sky Blue</clubColors>
+         <venue>Turf Moor</venue>
+         <lastUpdated>2022-02-10T19:24:11Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>332</id>
+         <name>Birmingham City FC</name>
+         <shortName>Birmingham</shortName>
+         <tla>BIR</tla>
+         <crest>https://crests.football-data.org/332.png</crest>
+         <address>St. Andrew's Stadium Birmingham B9 4RL</address>
+         <website>http://www.bcfc.com</website>
+         <founded>1875</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>St Andrew's Trillion Trophy Stadium</venue>
+         <lastUpdated>2022-02-20T08:43:10Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>336</id>
+         <name>Blackpool FC</name>
+         <shortName>Blackpool</shortName>
+         <tla>BLA</tla>
+         <crest>https://crests.football-data.org/336.png</crest>
+         <address>Bloomfield Road, Seasiders Way Blackpool FY1 6JJ</address>
+         <website>http://www.blackpoolfc.co.uk</website>
+         <founded>1887</founded>
+         <clubColors>Orange / White</clubColors>
+         <venue>Bloomfield Road</venue>
+         <lastUpdated>2022-02-10T19:11:47Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>338</id>
+         <name>Leicester City FC</name>
+         <shortName>Leicester City</shortName>
+         <tla>LEI</tla>
+         <crest>https://crests.football-data.org/338.png</crest>
+         <address>The Walkers Stadium, Filbert Way Leicester LE2 7FL</address>
+         <website>http://www.lcfc.com</website>
+         <founded>1884</founded>
+         <clubColors>Royal Blue / White</clubColors>
+         <venue>King Power Stadium</venue>
+         <lastUpdated>2022-02-10T19:48:23Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>340</id>
+         <name>Southampton FC</name>
+         <shortName>Southampton</shortName>
+         <tla>SOU</tla>
+         <crest>https://crests.football-data.org/340.png</crest>
+         <address>Britannia Road Southampton SO14 5FP</address>
+         <website>http://www.saintsfc.co.uk</website>
+         <founded>1885</founded>
+         <clubColors>Red / White / Black</clubColors>
+         <venue>St. Mary's Stadium</venue>
+         <lastUpdated>2022-02-10T19:48:04Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>341</id>
+         <name>Leeds United FC</name>
+         <shortName>Leeds United</shortName>
+         <tla>LEE</tla>
+         <crest>https://crests.football-data.org/341.png</crest>
+         <address>Elland Road Leeds LS11 0ES</address>
+         <website>http://www.leedsunited.com</website>
+         <founded>1904</founded>
+         <clubColors>White / Blue</clubColors>
+         <venue>Elland Road</venue>
+         <lastUpdated>2022-02-10T19:27:14Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>342</id>
+         <name>Derby County FC</name>
+         <shortName>Derby County</shortName>
+         <tla>DER</tla>
+         <crest>https://crests.football-data.org/342.png</crest>
+         <address>Pride Park Derby DE24 8XL</address>
+         <website>http://www.dcfc.co.uk</website>
+         <founded>1884</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>iPro Stadium</venue>
+         <lastUpdated>2022-10-28T10:49:53Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>343</id>
+         <name>Middlesbrough FC</name>
+         <shortName>Middlesbrough</shortName>
+         <tla>MID</tla>
+         <crest>https://crests.football-data.org/343.png</crest>
+         <address>Riverside Stadium Middlesbrough TS3 6RS</address>
+         <website>http://www.mfc.co.uk</website>
+         <founded>1876</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Riverside Stadium</venue>
+         <lastUpdated>2022-02-19T08:58:41Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>345</id>
+         <name>Sheffield Wednesday FC</name>
+         <shortName>Sheffield Wed</shortName>
+         <tla>SHE</tla>
+         <crest>https://crests.football-data.org/345.png</crest>
+         <address>Hillsborough Sheffield, Yorkshire S6 1SW</address>
+         <website>http://www.swfc.co.uk</website>
+         <founded>1820</founded>
+         <clubColors>Blue / White / Black</clubColors>
+         <venue>Hillsborough Stadium</venue>
+         <lastUpdated>2022-02-19T08:58:10Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>346</id>
+         <name>Watford FC</name>
+         <shortName>Watford</shortName>
+         <tla>WAT</tla>
+         <crest>https://crests.football-data.org/346.png</crest>
+         <address>Vicarage Road Watford WD18 0ER</address>
+         <website>http://www.watfordfc.com</website>
+         <founded>1881</founded>
+         <clubColors>Yellow / Black</clubColors>
+         <venue>Vicarage Road Stadium</venue>
+         <lastUpdated>2022-07-26T17:53:47Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>347</id>
+         <name>AFC Wimbledon</name>
+         <shortName>AFC Wimbledon</shortName>
+         <tla>WMB</tla>
+         <crest>https://crests.football-data.org/347.png</crest>
+         <address>Jack Goodchild Way, 422a Kingston Road Kingston upon Thames KT1 3PB</address>
+         <website>http://www.afcwimbledon.co.uk</website>
+         <founded>2002</founded>
+         <clubColors>Blue / Yellow</clubColors>
+         <venue>Kiyan Prince Foundation Stadium</venue>
+         <lastUpdated>2023-03-05T07:34:27Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>348</id>
+         <name>Charlton Athletic FC</name>
+         <shortName>Charlton</shortName>
+         <tla>CHA</tla>
+         <crest>https://crests.football-data.org/348.png</crest>
+         <address>Floyd Road, Charlton London SE7 8BL</address>
+         <website>http://www.cafc.co.uk</website>
+         <founded>1905</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>The Valley</venue>
+         <lastUpdated>2022-02-19T09:03:24Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>349</id>
+         <name>Ipswich Town FC</name>
+         <shortName>Ipswich Town</shortName>
+         <tla>IPS</tla>
+         <crest>https://crests.football-data.org/349.png</crest>
+         <address>Portman Road Ipswich IP1 2DA</address>
+         <website>http://www.itfc.co.uk</website>
+         <founded>1887</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Portman Road Stadium</venue>
+         <lastUpdated>2022-10-28T10:50:05Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>351</id>
+         <name>Nottingham Forest FC</name>
+         <shortName>Nottingham</shortName>
+         <tla>NOT</tla>
+         <crest>https://crests.football-data.org/351.png</crest>
+         <address>Pavilion Road, West Bridgeford Nottingham NG2 5GJ</address>
+         <website>http://www.nottinghamforest.co.uk</website>
+         <founded>1865</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>The City Ground</venue>
+         <lastUpdated>2022-07-26T17:53:21Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>354</id>
+         <name>Crystal Palace FC</name>
+         <shortName>Crystal Palace</shortName>
+         <tla>CRY</tla>
+         <crest>https://crests.football-data.org/354.png</crest>
+         <address>Whitehorse Lane London SE25 6PU</address>
+         <website>http://www.cpfc.co.uk</website>
+         <founded>1905</founded>
+         <clubColors>Red / Blue</clubColors>
+         <venue>Selhurst Park</venue>
+         <lastUpdated>2022-02-10T19:22:36Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>355</id>
+         <name>Reading FC</name>
+         <shortName>Reading</shortName>
+         <tla>REA</tla>
+         <crest>https://crests.football-data.org/355.png</crest>
+         <address>Junction 11 M4 Reading RG2 0FL</address>
+         <website>http://www.readingfc.co.uk</website>
+         <founded>1871</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Madejski Stadium</venue>
+         <lastUpdated>2022-07-26T17:53:40Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>356</id>
+         <name>Sheffield United FC</name>
+         <shortName>Sheffield Utd</shortName>
+         <tla>SHE</tla>
+         <crest>https://crests.football-data.org/356.svg</crest>
+         <address>Bramall Lane Sheffield, Yorkshire S2 4SU</address>
+         <website>http://www.sufc.co.uk</website>
+         <founded></founded>
+         <clubColors>Red / White / Black</clubColors>
+         <venue>Bramall Lane</venue>
+         <lastUpdated>2020-11-26T02:14:35Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>357</id>
+         <name>Barnsley FC</name>
+         <shortName>Barnsley</shortName>
+         <tla>BAR</tla>
+         <crest>https://crests.football-data.org/357.png</crest>
+         <address>Grove Street Barnsley S71 1ET</address>
+         <website>http://www.barnsleyfc.co.uk</website>
+         <founded>1887</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Oakwell Stadium</venue>
+         <lastUpdated>2022-02-20T08:42:50Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>361</id>
+         <name>Rochdale AFC</name>
+         <shortName>Rochdale</shortName>
+         <tla>ROC</tla>
+         <crest>https://crests.football-data.org/361.png</crest>
+         <address>Spotland Stadium Rochdale OL11 5DS</address>
+         <website>http://www.rochdaleafc.co.uk</website>
+         <founded>1907</founded>
+         <clubColors>Blue / Black</clubColors>
+         <venue>Crown Oil Arena</venue>
+         <lastUpdated>2023-03-21T12:41:29Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>363</id>
+         <name>Chesterfield FC</name>
+         <shortName>Chesterfield</shortName>
+         <tla>CHE</tla>
+         <crest>https://upload.wikimedia.org/wikipedia/en/9/94/Chesterfield_FC_crest.svg</crest>
+         <address>1866 Sheffield Road, Whittington Moor Chesterfield, Derbyshire S41 8NZ</address>
+         <website>http://www.chesterfield-fc.co.uk</website>
+         <founded>1866</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Proact Stadium</venue>
+         <lastUpdated>2020-11-26T02:20:38Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>365</id>
+         <name>Colchester United FC</name>
+         <shortName>Colchester Utd</shortName>
+         <tla>COL</tla>
+         <crest>https://crests.football-data.org/365.png</crest>
+         <address>Weston Homes Community Stadium Colchester CO4 5UP</address>
+         <website>http://www.cu-fc.com</website>
+         <founded>1937</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>JobServe Community Stadium</venue>
+         <lastUpdated>2023-03-05T07:35:40Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>366</id>
+         <name>Torquay United FC</name>
+         <shortName>Torquay</shortName>
+         <tla>TOR</tla>
+         <crest>https://crests.football-data.org/366.png</crest>
+         <address>Plainmoor Torquay TQ1 3PS</address>
+         <website>http://www.torquayunited.com</website>
+         <founded>1899</founded>
+         <clubColors>Yellow / Blue</clubColors>
+         <venue>Plainmoor Ground</venue>
+         <lastUpdated>2022-10-28T10:49:47Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>369</id>
+         <name>Walsall FC</name>
+         <shortName>Walsall</shortName>
+         <tla>WAL</tla>
+         <crest>https://crests.football-data.org/369.png</crest>
+         <address>Bescot Crescent Walsall, West Midlands WS1 4SA</address>
+         <website>http://www.saddlers.co.uk</website>
+         <founded>1888</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>The Banks's Stadium</venue>
+         <lastUpdated>2023-03-05T07:35:33Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>370</id>
+         <name>Gillingham FC</name>
+         <shortName>Gillingham</shortName>
+         <tla>GIL</tla>
+         <crest>https://crests.football-data.org/370.png</crest>
+         <address>Redfern Avenue Gillingham ME7 4DD</address>
+         <website>http://www.gillinghamfootballclub.com</website>
+         <founded>1893</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>MEMS Priestfield Stadium</venue>
+         <lastUpdated>2022-10-28T10:55:09Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>371</id>
+         <name>Hartlepool</name>
+         <shortName></shortName>
+         <tla></tla>
+         <crest></crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2021-07-05T15:34:21Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>372</id>
+         <name>Hereford FC</name>
+         <shortName>Hereford</shortName>
+         <tla>HER</tla>
+         <crest>https://crests.football-data.org/372.png</crest>
+         <address>Edgar Street Hereford HR4 9UJ</address>
+         <website>http://www.herefordfc.co.uk</website>
+         <founded>1924</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Edgar Street Athletic Ground</venue>
+         <lastUpdated>2022-10-28T10:53:56Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>376</id>
+         <name>Northampton Town FC</name>
+         <shortName>Northampton</shortName>
+         <tla>NOR</tla>
+         <crest>https://crests.football-data.org/376.png</crest>
+         <address>Upton Way Northampton NN5 5QA</address>
+         <website>http://www.ntfc.co.uk</website>
+         <founded>1897</founded>
+         <clubColors>Claret / White</clubColors>
+         <venue>Academy Stadium</venue>
+         <lastUpdated>2023-03-21T12:41:18Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>384</id>
+         <name>Millwall FC</name>
+         <shortName>Millwall</shortName>
+         <tla>MIL</tla>
+         <crest>https://crests.football-data.org/384.png</crest>
+         <address>Zampa Road London SE16 3LN</address>
+         <website>http://www.millwallfc.co.uk</website>
+         <founded>1885</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>The Den</venue>
+         <lastUpdated>2022-02-19T09:00:14Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>385</id>
+         <name>Rotherham United FC</name>
+         <shortName>Rotherham Utd</shortName>
+         <tla>ROT</tla>
+         <crest>https://crests.football-data.org/385.png</crest>
+         <address>New York Way Rotherham S60 1AH</address>
+         <website>http://www.themillers.co.uk</website>
+         <founded>1870</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>New York Stadium</venue>
+         <lastUpdated>2022-02-25T16:43:19Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>387</id>
+         <name>Bristol City FC</name>
+         <shortName>Bristol City</shortName>
+         <tla>BRI</tla>
+         <crest>https://crests.football-data.org/387.svg</crest>
+         <address>Ashton Gate Bristol BS3 2EJ</address>
+         <website>http://www.bcfc.co.uk</website>
+         <founded>1894</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Ashton Gate Stadium</venue>
+         <lastUpdated>2020-09-10T02:39:13Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>389</id>
+         <name>Luton Town FC</name>
+         <shortName>Luton Town</shortName>
+         <tla>LUT</tla>
+         <crest>https://crests.football-data.org/389.png</crest>
+         <address>1 Maple Road Luton LU4 8AW</address>
+         <website>http://www.lutontown.co.uk</website>
+         <founded>1885</founded>
+         <clubColors>White / Navy Blue / Orange</clubColors>
+         <venue>Kenilworth Road Stadium</venue>
+         <lastUpdated>2022-02-19T08:50:08Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>391</id>
+         <name>Notts County FC</name>
+         <shortName>Notts County</shortName>
+         <tla>NOT</tla>
+         <crest>https://crests.football-data.org/391.png</crest>
+         <address>Meadow Lane Nottingham NG2 3HJ</address>
+         <website>http://www.nottscountyfc.co.uk</website>
+         <founded>1862</founded>
+         <clubColors>Black / White</clubColors>
+         <venue>Meadow Lane Stadium</venue>
+         <lastUpdated>2023-09-18T10:12:47Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>393</id>
+         <name>Port Vale FC</name>
+         <shortName>Port Vale</shortName>
+         <tla>PVL</tla>
+         <crest>https://crests.football-data.org/393.png</crest>
+         <address>Hamil Road, Burslem Stoke-on-Trent ST6 1AW</address>
+         <website>http://www.port-vale.co.uk</website>
+         <founded>1876</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Vale Park</venue>
+         <lastUpdated>2023-03-05T07:35:27Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>394</id>
+         <name>Huddersfield Town AFC</name>
+         <shortName>Huddersfield</shortName>
+         <tla>HUD</tla>
+         <crest>https://crests.football-data.org/394.png</crest>
+         <address>Stadium Way Huddersfield HD1 6PX</address>
+         <website>http://www.htafc.com</website>
+         <founded>1908</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>The John Smith's Stadium</venue>
+         <lastUpdated>2022-02-10T19:15:53Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>396</id>
+         <name>Stockport County FC</name>
+         <shortName>Stockport</shortName>
+         <tla>STO</tla>
+         <crest>https://crests.football-data.org/396.png</crest>
+         <address>Hardcastle Road Stockport SK3 9DD</address>
+         <website>http://www.stockportcounty.com</website>
+         <founded>1883</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Edgeley Park</venue>
+         <lastUpdated>2022-06-27T08:54:27Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>397</id>
+         <name>Brighton & Hove Albion FC</name>
+         <shortName>Brighton Hove</shortName>
+         <tla>BHA</tla>
+         <crest>https://crests.football-data.org/397.svg</crest>
+         <address>44 North Road Brighton & Hove BN1 1YR</address>
+         <website>http://www.seagulls.co.uk</website>
+         <founded>1898</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>The American Express Community Stadium</venue>
+         <lastUpdated>2021-04-12T13:10:44Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>399</id>
+         <name>Leyton Orient FC</name>
+         <shortName>Leyton Orient</shortName>
+         <tla>LEY</tla>
+         <crest>https://crests.football-data.org/399.png</crest>
+         <address>Brisbane Road Leyton E10 5NE</address>
+         <website>http://www.leytonorient.com</website>
+         <founded>1881</founded>
+         <clubColors>Black / Red</clubColors>
+         <venue>Matchroom Stadium</venue>
+         <lastUpdated>2022-10-28T10:55:29Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>400</id>
+         <name>Bristol Rovers FC</name>
+         <shortName>Bristol Rovers</shortName>
+         <tla>BRI</tla>
+         <crest>https://crests.football-data.org/400.png</crest>
+         <address>Filton Avenue, Horfield Bristol BS7 0BF</address>
+         <website>http://www.bristolrovers.co.uk</website>
+         <founded>1883</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Memorial Stadium</venue>
+         <lastUpdated>2023-03-21T12:14:42Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>402</id>
+         <name>Brentford FC</name>
+         <shortName>Brentford</shortName>
+         <tla>BRE</tla>
+         <crest>https://crests.football-data.org/402.png</crest>
+         <address>Braemar Road Brentford TW8 0NT</address>
+         <website>http://www.brentfordfc.co.uk</website>
+         <founded>1889</founded>
+         <clubColors>Red / White / Black</clubColors>
+         <venue>Griffin Park</venue>
+         <lastUpdated>2022-04-03T16:24:00Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>404</id>
+         <name>Wrexham AFC</name>
+         <shortName>Wrexham</shortName>
+         <tla>WRE</tla>
+         <crest>https://crests.football-data.org/404.png</crest>
+         <address>Racecourse Ground, Mold Road Wrexham LL11 2AH</address>
+         <website>http://www.wrexhamafc.co.uk</website>
+         <founded>1864</founded>
+         <clubColors>Red / White</clubColors>
+         <venue>Racecourse Ground</venue>
+         <lastUpdated>2023-09-18T10:13:25Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>409</id>
+         <name>Milton Keynes Dons FC</name>
+         <shortName>Milton Keynes</shortName>
+         <tla>MKD</tla>
+         <crest>https://crests.football-data.org/409.png</crest>
+         <address>Stadium Way West Milton Keynes MK 1ST</address>
+         <website>http://www.mkdons.com</website>
+         <founded>1889</founded>
+         <clubColors>White / Red</clubColors>
+         <venue>Stadium mk</venue>
+         <lastUpdated>2022-10-28T10:52:07Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>411</id>
+         <name>Cheltenham Town FC</name>
+         <shortName>Cheltenham T</shortName>
+         <tla>CHE</tla>
+         <crest>https://crests.football-data.org/411.png</crest>
+         <address>Whaddon Road Cheltenham GL52 5NA</address>
+         <website>http://www.ctfc.com</website>
+         <founded>1892</founded>
+         <clubColors></clubColors>
+         <venue>Jonny-Rocks Stadium</venue>
+         <lastUpdated>2022-10-28T10:52:32Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>431</id>
+         <name>SSC Bari</name>
+         <shortName>Bari</shortName>
+         <tla>BAR</tla>
+         <crest>https://crests.football-data.org/431.png</crest>
+         <address>via Sparano da Bari 162 Bari 70124</address>
+         <website>http://www.fcbari1908.club</website>
+         <founded>1908</founded>
+         <clubColors>White / Red</clubColors>
+         <venue>Stadio Comunale San Nicola</venue>
+         <lastUpdated>2022-10-19T16:24:12Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>436</id>
+         <name>AS Livorno Calcio</name>
+         <shortName>Livorno</shortName>
+         <tla>LIV</tla>
+         <crest>https://crests.football-data.org/436.svg</crest>
+         <address>Via Indipendenza, 16 Livorno 57126</address>
+         <website>http://www.livornocalcio.it</website>
+         <founded>1915</founded>
+         <clubColors>Maroon / Black</clubColors>
+         <venue>Stadio Armando Picchi</venue>
+         <lastUpdated>2021-02-06T18:08:52Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>445</id>
+         <name>Empoli FC</name>
+         <shortName>Empoli</shortName>
+         <tla>EMP</tla>
+         <crest>https://crests.football-data.org/445.png</crest>
+         <address>Piazza Matteotti Empoli 50053</address>
+         <website>http://www.empolicalcio.net</website>
+         <founded>1920</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Stadio Carlo Castellani</venue>
+         <lastUpdated>2022-02-19T08:56:41Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>446</id>
+         <name>Ascoli Calcio 1898 FC</name>
+         <shortName>Ascoli</shortName>
+         <tla>ASC</tla>
+         <crest>https://crests.football-data.org/446.png</crest>
+         <address>Corso V. Emanuele 21 Ascoli 63100</address>
+         <website>http://www.ascolipicchio.com</website>
+         <founded>1898</founded>
+         <clubColors>White / Black</clubColors>
+         <venue>Stadio Cino e Lillo Del Duca</venue>
+         <lastUpdated>2022-03-20T17:53:33Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>447</id>
+         <name>ACR Messina</name>
+         <shortName></shortName>
+         <tla>MES</tla>
+         <crest>https://crests.football-data.org/447.png</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2022-09-02T10:35:47Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>448</id>
+         <name>ACD Treviso</name>
+         <shortName>Treviso</shortName>
+         <tla>ACD</tla>
+         <crest>https://crests.football-data.org/448.png</crest>
+         <address>null null null</address>
+         <website></website>
+         <founded></founded>
+         <clubColors></clubColors>
+         <venue></venue>
+         <lastUpdated>2023-09-04T13:08:07Z</lastUpdated>
+     </teams>
+     <teams>
+         <id>449</id>
+         <name>Brescia Calcio</name>
+         <shortName>Brescia</shortName>
+         <tla>BRS</tla>
+         <crest>https://crests.football-data.org/449.png</crest>
+         <address>Via Novagani, 8 Brescia 25127</address>
+         <website>http://www.bresciacalcio.it</website>
+         <founded>1907</founded>
+         <clubColors>Blue / White</clubColors>
+         <venue>Stadio Mario Rigamonti</venue>
+         <lastUpdated>2022-02-19T08:57:28Z</lastUpdated>
+     </teams>
+ </root>
+

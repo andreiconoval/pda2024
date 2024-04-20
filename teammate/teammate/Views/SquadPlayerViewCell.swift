@@ -13,7 +13,7 @@ class SquadPlayerViewCell: UITableViewCell {
     @IBOutlet weak var playerName: UILabel!
     
     static let identifier = "SquadPlayerViewCell"
-    static func nib() -> UINib{
+    static func nib() -> UINib {
         return UINib(nibName:"SquadPlayerViewCell", bundle: nil)
     }
     override func awakeFromNib() {
@@ -28,4 +28,15 @@ class SquadPlayerViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configure(player: SquadPlayer) {
+        self.playerName.text = player.name
+        if player.position == "Goalkeeper"
+        {
+            self.imageView?.image = UIImage(named: "goalkeeper-50")
+        }
+        else
+        {
+            self.imageView?.image = UIImage(systemName: "figure.soccer")
+        }
+    }
 }

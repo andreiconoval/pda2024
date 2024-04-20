@@ -9,9 +9,18 @@ import UIKit
 
 class PlayersViewController: UIViewController {
     
+    var teamID: Int!
+    
     @IBOutlet weak var tableView: UITableView!
     private let apiClient = APIClient()
     private var players: [SquadPlayer] = []
+    private var team: Team!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var countryLabel: UILabel!
+    @IBOutlet weak var venueLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var crestImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,12 +32,24 @@ class PlayersViewController: UIViewController {
         fetchPlayers()
     }
     
+    func updateUI(with team: Team) {
+        self.title =  team.shortName
+        nameLabel?.text = team.name
+        countryLabel?.text = team.area?.name
+        venueLabel?.text = team.venue
+        addressLabel?.text = team.address
+        loadTeamCrest(urlString: team.crest)
+        
+    }
+    
     func fetchPlayers() {
-        apiClient.fetchTeamData(teamID:90){ [weak self] result in
+        apiClient.fetchTeamData(teamID:teamID){ [weak self] result in
             switch result {
             case .success(let team):
                 self?.players = team.squad
+                self?.team = team
                 DispatchQueue.main.async {
+                    self?.updateUI(with: team)
                     self?.tableView.reloadData()
                 }
             case .failure(let error):
@@ -36,14 +57,50 @@ class PlayersViewController: UIViewController {
             }
         }
     }
+    
+    func loadTeamCrest(urlString: String) {
+        // URL of the image
+               // Create URL object from string
+               if let url = URL(string: urlString) {
+                   // Create a data task to fetch the image
+                   URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
+                       // Check for errors
+                       if let error = error {
+                           print("Error fetching image: \(error)")
+                           return
+                       }
+                       
+                       // Check for response status code
+                       guard let httpResponse = response as? HTTPURLResponse,
+                             (200...299).contains(httpResponse.statusCode) else {
+                           print("Invalid response")
+                           return
+                       }
+                       
+                       // Check if data is available
+                       if let data = data {
+                           // Create image from data
+                           if let image = UIImage(data: data) {
+                               // Update UI on main thread
+                               DispatchQueue.main.async {
+                                   self?.crestImage.image = image
+                               }
+                           }
+                       }
+                   }.resume() // Resume the data task
+               }
+    }
 }
+
+
 
 extension PlayersViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "Main", bundle:nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "playerview")
-        vc.navigationItem.title = players[indexPath.row].name
-        navigationController?.pushViewController(vc, animated: true)
+        let playersController = storyboard.instantiateViewController(withIdentifier: "playerview") as! PlayerViewController
+        playersController.title = players[indexPath.row].name
+        playersController.playerID = players[indexPath.row].id
+        self.navigationController?.pushViewController(playersController, animated: true)
         print("cell taped")
     }		
 }
@@ -57,8 +114,14 @@ extension PlayersViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SquadPlayerViewCell", for: indexPath) as! SquadPlayerViewCell
         let player = players[indexPath.row]
         cell.playerName.text = player.name
-        cell.imageView?.image = UIImage(systemName: "square.fill")
-        // cell.configure(with: player)
+        if player.position == "Goalkeeper"
+        {
+            cell.imageView?.image = UIImage(named: "goalkeeper-50")
+        }
+        else
+        {
+            cell.imageView?.image = UIImage(systemName: "figure.soccer")
+        }
         return cell
     }
 }
@@ -73,4 +136,3 @@ class PlayerTableViewCell: UITableViewCell {
         positionLabel?.text = player.position
     }
 }
-
