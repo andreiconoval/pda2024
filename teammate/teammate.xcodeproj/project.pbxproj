@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		AA18B8132BD312AB00438826 /* SquadPlayerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */; };
 		AA18B8142BD312AB00438826 /* SquadPlayerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */; };
+		AA70E5B12BD46B2C0057C12D /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA70E5B02BD46B2C0057C12D /* UIViewControllerExtensions.swift */; };
 		AA727D1A2BD4221F00949DCC /* goalie.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D162BD4221F00949DCC /* goalie.png */; };
 		AA727D1B2BD4221F00949DCC /* dribble.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D172BD4221F00949DCC /* dribble.png */; };
 		AA727D1C2BD4221F00949DCC /* defence.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D182BD4221F00949DCC /* defence.png */; };
 		AA727D1D2BD4221F00949DCC /* foul.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D192BD4221F00949DCC /* foul.png */; };
+		AA727D1F2BD44B0600949DCC /* 198760.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA727D1E2BD44B0600949DCC /* 198760.jpg */; };
+		AA727D222BD44D3A00949DCC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA727D212BD44D3A00949DCC /* UIViewExtensions.swift */; };
+		AA727D242BD4573E00949DCC /* 283948.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA727D232BD4573E00949DCC /* 283948.jpg */; };
+		AA727D262BD45BDC00949DCC /* PlayerMatchesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA727D252BD45BDC00949DCC /* PlayerMatchesResult.swift */; };
 		AAA22BD82BD1AADE0062E2A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BD72BD1AADE0062E2A5 /* AppDelegate.swift */; };
 		AAA22BDA2BD1AADE0062E2A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BD92BD1AADE0062E2A5 /* SceneDelegate.swift */; };
 		AAA22BDC2BD1AADE0062E2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BDB2BD1AADE0062E2A5 /* ViewController.swift */; };
@@ -39,10 +44,15 @@
 /* Begin PBXFileReference section */
 		AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadPlayerViewCell.swift; sourceTree = "<group>"; };
 		AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquadPlayerViewCell.xib; sourceTree = "<group>"; };
+		AA70E5B02BD46B2C0057C12D /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		AA727D162BD4221F00949DCC /* goalie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goalie.png; path = ../../../../../Downloads/goalie.png; sourceTree = "<group>"; };
 		AA727D172BD4221F00949DCC /* dribble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dribble.png; path = ../../../../../Downloads/dribble.png; sourceTree = "<group>"; };
 		AA727D182BD4221F00949DCC /* defence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defence.png; path = ../../../../../Downloads/defence.png; sourceTree = "<group>"; };
 		AA727D192BD4221F00949DCC /* foul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foul.png; path = ../../../../../Downloads/foul.png; sourceTree = "<group>"; };
+		AA727D1E2BD44B0600949DCC /* 198760.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 198760.jpg; path = ../../../../../Downloads/198760.jpg; sourceTree = "<group>"; };
+		AA727D212BD44D3A00949DCC /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		AA727D232BD4573E00949DCC /* 283948.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 283948.jpg; path = ../../../../../Downloads/283948.jpg; sourceTree = "<group>"; };
+		AA727D252BD45BDC00949DCC /* PlayerMatchesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMatchesResult.swift; sourceTree = "<group>"; };
 		AAA22BD42BD1AADE0062E2A5 /* teammate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teammate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA22BD72BD1AADE0062E2A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA22BD92BD1AADE0062E2A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA727D202BD44D1B00949DCC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA727D212BD44D3A00949DCC /* UIViewExtensions.swift */,
+				AA70E5B02BD46B2C0057C12D /* UIViewControllerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AAA22BCB2BD1AADE0062E2A5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +117,7 @@
 		AAA22BD62BD1AADE0062E2A5 /* teammate */ = {
 			isa = PBXGroup;
 			children = (
+				AA727D202BD44D1B00949DCC /* Extensions */,
 				AAF8FB2F2BD3E3A80026F2CE /* Resources */,
 				AAF8FB2C2BD3E2930026F2CE /* Parsers */,
 				AAF8FB1D2BD39CF80026F2CE /* Images */,
@@ -125,6 +145,7 @@
 				AAF8FB242BD3AD4F0026F2CE /* Competition.swift */,
 				AAF8FB262BD3ADFE0026F2CE /* Player.swift */,
 				AAF8FB2A2BD3E2710026F2CE /* TeamItem.swift */,
+				AA727D252BD45BDC00949DCC /* PlayerMatchesResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +182,8 @@
 		AAF8FB1D2BD39CF80026F2CE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AA727D232BD4573E00949DCC /* 283948.jpg */,
+				AA727D1E2BD44B0600949DCC /* 198760.jpg */,
 				AA727D182BD4221F00949DCC /* defence.png */,
 				AA727D172BD4221F00949DCC /* dribble.png */,
 				AA727D192BD4221F00949DCC /* foul.png */,
@@ -248,10 +271,12 @@
 				AAA22BE42BD1AADF0062E2A5 /* Base in Resources */,
 				AAF8FB312BD3E4AF0026F2CE /* teams.xml in Resources */,
 				AA727D1B2BD4221F00949DCC /* dribble.png in Resources */,
+				AA727D1F2BD44B0600949DCC /* 198760.jpg in Resources */,
 				AA727D1C2BD4221F00949DCC /* defence.png in Resources */,
 				AAF8FB1F2BD39D980026F2CE /* goalkeeper-50.png in Resources */,
 				AA727D1D2BD4221F00949DCC /* foul.png in Resources */,
 				AA18B8132BD312AB00438826 /* SquadPlayerViewCell.xib in Resources */,
+				AA727D242BD4573E00949DCC /* 283948.jpg in Resources */,
 				AAA22BDF2BD1AADE0062E2A5 /* Base in Resources */,
 				AA727D1A2BD4221F00949DCC /* goalie.png in Resources */,
 				AAF8FB342BD3ED040026F2CE /* TeamItemViewCell.xib in Resources */,
@@ -272,6 +297,8 @@
 				AAF8FB2E2BD3E2AE0026F2CE /* TeamParser.swift in Sources */,
 				AAF8FB2B2BD3E2710026F2CE /* TeamItem.swift in Sources */,
 				AAA22BEE2BD1B4500062E2A5 /* Team.swift in Sources */,
+				AA70E5B12BD46B2C0057C12D /* UIViewControllerExtensions.swift in Sources */,
+				AA727D262BD45BDC00949DCC /* PlayerMatchesResult.swift in Sources */,
 				AAA22BFA2BD1BCA80062E2A5 /* PlayersViewController.swift in Sources */,
 				AAF8FB272BD3ADFE0026F2CE /* Player.swift in Sources */,
 				AA18B8142BD312AB00438826 /* SquadPlayerViewCell.swift in Sources */,
@@ -279,6 +306,7 @@
 				AAA22BF22BD1B5290062E2A5 /* APIFootballClient.swift in Sources */,
 				AAF8FB212BD3AC310026F2CE /* PlayerViewController.swift in Sources */,
 				AAA22BF02BD1B4B10062E2A5 /* SquadPlayer.swift in Sources */,
+				AA727D222BD44D3A00949DCC /* UIViewExtensions.swift in Sources */,
 				AAA22BD82BD1AADE0062E2A5 /* AppDelegate.swift in Sources */,
 				AAA22BDA2BD1AADE0062E2A5 /* SceneDelegate.swift in Sources */,
 			);

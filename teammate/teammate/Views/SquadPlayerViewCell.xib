@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDQ-wz-fkA">
-                        <rect key="frame" x="124" y="16" width="72" height="21"/>
+                        <rect key="frame" x="85" y="16" width="150" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="YCx-NN-oHD"/>
                         </constraints>
@@ -36,9 +36,9 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="syf-Xj-ug6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="KdU-up-Pkx"/>
-                    <constraint firstItem="kDQ-wz-fkA" firstAttribute="leading" secondItem="syf-Xj-ug6" secondAttribute="trailing" constant="89" id="S9R-rJ-s4Q"/>
+                    <constraint firstItem="kDQ-wz-fkA" firstAttribute="leading" secondItem="syf-Xj-ug6" secondAttribute="trailing" constant="50" id="Tdf-JU-YUR"/>
                     <constraint firstItem="kDQ-wz-fkA" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="bpy-GR-bKo"/>
-                    <constraint firstItem="kDQ-wz-fkA" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fec-Fx-NFY"/>
+                    <constraint firstItem="kDQ-wz-fkA" firstAttribute="centerY" secondItem="syf-Xj-ug6" secondAttribute="centerY" id="joF-Gm-Msn"/>
                     <constraint firstItem="syf-Xj-ug6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="m3A-Vs-dgX"/>
                     <constraint firstAttribute="bottom" secondItem="syf-Xj-ug6" secondAttribute="bottom" constant="5" id="tm6-6g-EAQ"/>
                 </constraints>

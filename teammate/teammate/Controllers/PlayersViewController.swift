@@ -107,8 +107,8 @@ extension PlayersViewController: UITableViewDelegate {
         playersController.title = players[indexPath.row].name
         playersController.playerID = players[indexPath.row].id
         self.navigationController?.pushViewController(playersController, animated: true)
-        print("cell taped")
-    }		
+        print("cell taped \(players[indexPath.row].id)")
+    }
 }
 
 extension PlayersViewController: UITableViewDataSource {

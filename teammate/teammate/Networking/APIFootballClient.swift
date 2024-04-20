@@ -77,4 +77,38 @@ class APIClient {
             }
         }.resume()
     }
+    
+    func fetchPlayerMatches(playerID: Int, completion: @escaping (Result<PlayerMatchesResult, Error>) -> Void) {
+        let playerURL = baseURL.appendingPathComponent("persons/\(playerID)/matches")
+        var request = URLRequest(url: playerURL)
+        request.addValue(token, forHTTPHeaderField: "X-Auth-Token")
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                completion(.failure(error))
+                return
+            }
+            
+            guard let httpResponse = response as? HTTPURLResponse,
+                  (200...299).contains(httpResponse.statusCode) else {
+                let statusCode = (response as? HTTPURLResponse)?.statusCode ?? -1
+                let error = NSError(domain: "HTTP", code: statusCode, userInfo: nil)
+                completion(.failure(error))
+                return
+            }
+            
+            if let data = data {
+                do {
+                    let player = try JSONDecoder().decode(PlayerMatchesResult.self, from: data)
+                    completion(.success(player))
+                } catch {
+                    completion(.failure(error))
+                }
+            } else {
+                let error = NSError(domain: "Data", code: -1, userInfo: nil)
+                completion(.failure(error))
+            }
+        }.resume()
+    }
+
 }
