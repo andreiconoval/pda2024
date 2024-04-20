@@ -32,11 +32,19 @@ class SquadPlayerViewCell: UITableViewCell {
         self.playerName.text = player.name
         if player.position == "Goalkeeper"
         {
-            self.imageView?.image = UIImage(named: "goalkeeper-50")
+            self.imageView?.image = UIImage(named: "goalie")
         }
-        else
+        else if player.position == "Defence"
         {
-            self.imageView?.image = UIImage(systemName: "figure.soccer")
+            self.imageView?.image = UIImage(named: "defence")
+        }
+        else if player.position == "Midfield"
+        {
+            self.imageView?.image = UIImage(named: "dribble")
+        }
+        else if player.position == "Offence"
+        {
+            self.imageView?.image = UIImage(named: "foul")
         }
     }
 }

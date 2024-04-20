@@ -94,8 +94,8 @@
             filePath = "teammate/Controllers/PlayersViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,25 +110,9 @@
             filePath = "teammate/Controllers/PlayersViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9AAF5A07-72BB-4896-A2C7-01DDE8AFC6A0"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "teammate/Controllers/PlayersViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "configure(with:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -194,13 +178,57 @@
             endingLineNumber = "37"
             landmarkName = "fetchPlayer()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B78FCC5-CA0E-4B12-89EA-0E6F33DA6B95 - e4a9e3973ced29b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;teammate.Player, Swift.Error&gt;) -&gt; () in teammate.PlayerViewController.fetchPlayer() -&gt; ()"
+                  moduleName = "teammate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user256828/Desktop/PDA/teammate/teammate/Controllers/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+               <Location
+                  uuid = "5B78FCC5-CA0E-4B12-89EA-0E6F33DA6B95 - e4a9e3973ced29b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;teammate.Player, Swift.Error&gt;) -&gt; () in teammate.PlayerViewController.fetchPlayer() -&gt; ()"
+                  moduleName = "teammate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user256828/Desktop/PDA/teammate/teammate/Controllers/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+               <Location
+                  uuid = "5B78FCC5-CA0E-4B12-89EA-0E6F33DA6B95 - e4a9e3973ced29b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;teammate.Player, Swift.Error&gt;) -&gt; () in teammate.PlayerViewController.fetchPlayer() -&gt; ()"
+                  moduleName = "teammate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user256828/Desktop/PDA/teammate/teammate/Controllers/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "16CD6A10-A30A-4557-84E8-9F9F7F46F446"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "teammate/Controllers/PlayerViewController.swift"
@@ -226,6 +254,82 @@
             endingLineNumber = "60"
             landmarkName = "showWebView()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60687E70-2FF0-457F-93F9-E631A1A111D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "teammate/Controllers/PlayerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchPlayer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8C4ED20-EB73-49B2-9A55-0A34A97FEBDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "teammate/Controllers/PlayerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchPlayer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8C4ED20-EB73-49B2-9A55-0A34A97FEBDE - f56341670df5e714"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "teammate.PlayerViewController.fetchPlayer() -&gt; ()"
+                  moduleName = "teammate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user256828/Desktop/PDA/teammate/teammate/Controllers/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+               <Location
+                  uuid = "F8C4ED20-EB73-49B2-9A55-0A34A97FEBDE - e4a9e3973ced29f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;teammate.Player, Swift.Error&gt;) -&gt; () in teammate.PlayerViewController.fetchPlayer() -&gt; ()"
+                  moduleName = "teammate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user256828/Desktop/PDA/teammate/teammate/Controllers/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+               <Location
+                  uuid = "F8C4ED20-EB73-49B2-9A55-0A34A97FEBDE - 175912ada34eca00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;teammate.Player, Swift.Error&gt;) -&gt; () in teammate.PlayerViewController.fetchPlayer() -&gt; ()"
+                  moduleName = "teammate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user256828/Desktop/PDA/teammate/teammate/Controllers/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

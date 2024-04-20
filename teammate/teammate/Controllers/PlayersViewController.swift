@@ -54,6 +54,12 @@ class PlayersViewController: UIViewController {
                 }
             case .failure(let error):
                 print("Failed to fetch players: \(error)")
+                DispatchQueue.main.async {
+                    self?.nameLabel?.text = "Failed to fetch players"
+                    self?.countryLabel?.text = "\(error)"
+                    self?.venueLabel?.text = "Try another team"
+                    self?.addressLabel?.text = "please!"
+                }
             }
         }
     }
@@ -113,26 +119,7 @@ extension PlayersViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SquadPlayerViewCell", for: indexPath) as! SquadPlayerViewCell
         let player = players[indexPath.row]
-        cell.playerName.text = player.name
-        if player.position == "Goalkeeper"
-        {
-            cell.imageView?.image = UIImage(named: "goalkeeper-50")
-        }
-        else
-        {
-            cell.imageView?.image = UIImage(systemName: "figure.soccer")
-        }
+        cell.configure(player: player)
         return cell
-    }
-}
-
-class PlayerTableViewCell: UITableViewCell {
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var positionLabel: UILabel!
-    
-    func configure(with player: SquadPlayer) {
-        self.textLabel?.text = player.name
-        nameLabel?.text = player.name
-        positionLabel?.text = player.position
     }
 }

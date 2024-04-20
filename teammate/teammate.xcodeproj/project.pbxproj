@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		AA18B8132BD312AB00438826 /* SquadPlayerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */; };
 		AA18B8142BD312AB00438826 /* SquadPlayerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */; };
+		AA727D1A2BD4221F00949DCC /* goalie.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D162BD4221F00949DCC /* goalie.png */; };
+		AA727D1B2BD4221F00949DCC /* dribble.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D172BD4221F00949DCC /* dribble.png */; };
+		AA727D1C2BD4221F00949DCC /* defence.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D182BD4221F00949DCC /* defence.png */; };
+		AA727D1D2BD4221F00949DCC /* foul.png in Resources */ = {isa = PBXBuildFile; fileRef = AA727D192BD4221F00949DCC /* foul.png */; };
 		AAA22BD82BD1AADE0062E2A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BD72BD1AADE0062E2A5 /* AppDelegate.swift */; };
 		AAA22BDA2BD1AADE0062E2A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BD92BD1AADE0062E2A5 /* SceneDelegate.swift */; };
 		AAA22BDC2BD1AADE0062E2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BDB2BD1AADE0062E2A5 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* Begin PBXFileReference section */
 		AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadPlayerViewCell.swift; sourceTree = "<group>"; };
 		AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquadPlayerViewCell.xib; sourceTree = "<group>"; };
+		AA727D162BD4221F00949DCC /* goalie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goalie.png; path = ../../../../../Downloads/goalie.png; sourceTree = "<group>"; };
+		AA727D172BD4221F00949DCC /* dribble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dribble.png; path = ../../../../../Downloads/dribble.png; sourceTree = "<group>"; };
+		AA727D182BD4221F00949DCC /* defence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defence.png; path = ../../../../../Downloads/defence.png; sourceTree = "<group>"; };
+		AA727D192BD4221F00949DCC /* foul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foul.png; path = ../../../../../Downloads/foul.png; sourceTree = "<group>"; };
 		AAA22BD42BD1AADE0062E2A5 /* teammate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teammate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA22BD72BD1AADE0062E2A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA22BD92BD1AADE0062E2A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +161,10 @@
 		AAF8FB1D2BD39CF80026F2CE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AA727D182BD4221F00949DCC /* defence.png */,
+				AA727D172BD4221F00949DCC /* dribble.png */,
+				AA727D192BD4221F00949DCC /* foul.png */,
+				AA727D162BD4221F00949DCC /* goalie.png */,
 				AAF8FB1E2BD39D980026F2CE /* goalkeeper-50.png */,
 			);
 			path = Images;
@@ -235,9 +247,13 @@
 				AAA22BE12BD1AADF0062E2A5 /* Assets.xcassets in Resources */,
 				AAA22BE42BD1AADF0062E2A5 /* Base in Resources */,
 				AAF8FB312BD3E4AF0026F2CE /* teams.xml in Resources */,
+				AA727D1B2BD4221F00949DCC /* dribble.png in Resources */,
+				AA727D1C2BD4221F00949DCC /* defence.png in Resources */,
 				AAF8FB1F2BD39D980026F2CE /* goalkeeper-50.png in Resources */,
+				AA727D1D2BD4221F00949DCC /* foul.png in Resources */,
 				AA18B8132BD312AB00438826 /* SquadPlayerViewCell.xib in Resources */,
 				AAA22BDF2BD1AADE0062E2A5 /* Base in Resources */,
+				AA727D1A2BD4221F00949DCC /* goalie.png in Resources */,
 				AAF8FB342BD3ED040026F2CE /* TeamItemViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
