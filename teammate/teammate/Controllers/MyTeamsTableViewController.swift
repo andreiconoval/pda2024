@@ -35,7 +35,8 @@ class MyTeamsTableViewController: UITableViewController {
             }
             self.fetchTeams()
         }
-        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+
         alert.addAction(submitButton)
         self.present(alert, animated: true, completion: nil)
     }
@@ -102,18 +103,20 @@ class MyTeamsTableViewController: UITableViewController {
             let alert = UIAlertController(title: "Update team", message: "Change is name and image", preferredStyle: .alert)
             alert.addTextField { UITextField in
                 UITextField.placeholder = "Team name"
+                UITextField.text = teamToUpdate.name
             }
-            
+        
             alert.addTextField { UITextField in
                 UITextField.placeholder = "Team image url"
+                UITextField.text = teamToUpdate.imageURL
             }
             
-            let submitButton = UIAlertAction(title: "Add", style: .default) { (action) in
+            let submitButton = UIAlertAction(title: "Save", style: .default) { (action) in
                 let nameTextField = alert.textFields![0]
                 let imageTextFiled = alert.textFields![1]
-                let newTeam = CDTeam(context: self.context)
-                newTeam.name = nameTextField.text
-                newTeam.imageURL = imageTextFiled.text
+                teamToUpdate.name = nameTextField.text
+                teamToUpdate.imageURL = imageTextFiled.text
+                
                 do {
                     
                     try self.context.save()
@@ -121,11 +124,12 @@ class MyTeamsTableViewController: UITableViewController {
                 } catch {
                     
                 }
+                
                 self.fetchTeams()
             }
-            
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
             alert.addAction(submitButton)
-            self.present(alert, animated: true, completion: nil)
+            self.present(alert, animated: true, completion:nil)
             
         }
         return UISwipeActionsConfiguration(actions: [updateAction,action])
