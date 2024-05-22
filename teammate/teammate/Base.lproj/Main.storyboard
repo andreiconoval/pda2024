@@ -2,13 +2,64 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bf3-RV-cWk">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--My Teams-->
+        <scene sceneID="MIu-x9-MUU">
+            <objects>
+                <viewController id="6wQ-yG-MsI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dl4-cF-3mr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xWL-sr-g8a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Teams" id="YOQ-KM-0yQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nq9-SD-lLj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137" y="-958"/>
+        </scene>
+        <!--My teams-->
+        <scene sceneID="xBo-Mb-ocr">
+            <objects>
+                <tableViewController id="82d-ze-MkG" customClass="MyTeamsTableViewController" customModule="teammate" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="WMf-yT-Czd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MyTeamCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyTeamCell" id="KQZ-nx-zXq">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KQZ-nx-zXq" id="g6W-gV-ezh">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="82d-ze-MkG" id="4D8-k4-rNa"/>
+                            <outlet property="delegate" destination="82d-ze-MkG" id="HBG-rj-mz6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My teams" id="chP-9v-Q85">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="pMd-AA-mgz">
+                            <connections>
+                                <action selector="addMyTeam:" destination="82d-ze-MkG" id="uFr-oL-wXK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JkK-rN-Qs5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092" y="-956"/>
+        </scene>
         <!--Teams-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -18,7 +69,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zVN-5m-qQG">
-                                <rect key="frame" x="10" y="100" width="373" height="698"/>
+                                <rect key="frame" x="10" y="200" width="373" height="598"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="teamCell" id="M2e-wh-T1A">
                                         <rect key="frame" x="0.0" y="50" width="373" height="50"/>
@@ -30,14 +81,25 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJx-59-ivU">
+                                <rect key="frame" x="124.66666666666669" y="127" width="144" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Go to my teams"/>
+                                <connections>
+                                    <segue destination="82d-ze-MkG" kind="show" id="1kN-1x-A0n"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="zVN-5m-qQG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Eno-c6-1of"/>
+                            <constraint firstItem="zVN-5m-qQG" firstAttribute="top" secondItem="BJx-59-ivU" secondAttribute="bottom" constant="38" id="IfT-NL-pBI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zVN-5m-qQG" secondAttribute="bottom" constant="20" id="KXZ-on-lhV"/>
+                            <constraint firstItem="BJx-59-ivU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Ofr-7G-A2y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zVN-5m-qQG" secondAttribute="trailing" constant="10" id="URf-3K-CUQ"/>
-                            <constraint firstItem="zVN-5m-qQG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="XZv-Wn-4rU"/>
+                            <constraint firstItem="zVN-5m-qQG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="200" id="XZv-Wn-4rU"/>
+                            <constraint firstItem="BJx-59-ivU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tks-NC-Be3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Teams" id="xVA-nP-reG"/>
@@ -503,6 +565,7 @@
         <image name="flag.fill" catalog="system" width="128" height="121"/>
         <image name="flag.square" catalog="system" width="128" height="114"/>
         <image name="flag.square.fill" catalog="system" width="128" height="114"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
