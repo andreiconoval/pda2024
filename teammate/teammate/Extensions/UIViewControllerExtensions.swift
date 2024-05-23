@@ -10,8 +10,8 @@ import UIKit
 extension UIViewController {
     
     func showToast(message: String, font: UIFont) {
-        let toastLable = UILabel(frame:CGRect(x: self.view.frame.size.width/2-75, y: self.view.frame.size.width/2-100
-                                              , width: 150, height: 35))
+        let toastLable = UILabel(frame:CGRect(x: self.view.frame.size.width/2-150, y: self.view.frame.size.width/2-100
+                                              , width: self.view.frame.size.width-30, height: 35))
         toastLable.backgroundColor = UIColor.black.withAlphaComponent(0.6)
         toastLable.textAlignment = .center
         toastLable.textColor = .white

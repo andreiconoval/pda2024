@@ -46,7 +46,7 @@ class SelectMyTeamTableViewController: UITableViewController {
    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        do {
            let request = CDPlayer.fetchRequest() as NSFetchRequest<CDPlayer>
-           let playerId = Int16(player.id)
+           let playerId = Int32(player.id)
            let pred = NSPredicate(format: "id == %d", playerId)
            
            request.predicate = pred
@@ -79,7 +79,7 @@ class SelectMyTeamTableViewController: UITableViewController {
            } else
            {
                let newPlayer = CDPlayer(context: self.context)
-               newPlayer.id = Int16(player.id)
+               newPlayer.id = Int32(player.id)
                newPlayer.name = player.name
                newPlayer.nationality = player.nationality
                newPlayer.position = player.position

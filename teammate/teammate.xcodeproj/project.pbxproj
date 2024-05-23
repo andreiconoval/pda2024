@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA176F1D2BFE53900045A625 /* CDTeam+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA176F192BFE53900045A625 /* CDTeam+CoreDataClass.swift */; };
-		AA176F1E2BFE53900045A625 /* CDTeam+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA176F1A2BFE53900045A625 /* CDTeam+CoreDataProperties.swift */; };
-		AA176F1F2BFE53900045A625 /* CDPlayer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA176F1B2BFE53900045A625 /* CDPlayer+CoreDataClass.swift */; };
-		AA176F202BFE53900045A625 /* CDPlayer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA176F1C2BFE53900045A625 /* CDPlayer+CoreDataProperties.swift */; };
 		AA176F252BFE5B450045A625 /* MyTeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA176F242BFE5B450045A625 /* MyTeamsTableViewController.swift */; };
 		AA18AD7D2BFD16E800773B72 /* Teammate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA18AD7B2BFD16E800773B72 /* Teammate.xcdatamodeld */; };
 		AA18B8132BD312AB00438826 /* SquadPlayerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA18B8122BD312AB00438826 /* SquadPlayerViewCell.xib */; };
@@ -36,6 +32,10 @@
 		AAA22BFA2BD1BCA80062E2A5 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BF92BD1BCA80062E2A5 /* PlayersViewController.swift */; };
 		AAE2E07D2BFFB309002ED385 /* MyTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E07C2BFFB309002ED385 /* MyTeamTableViewController.swift */; };
 		AAE2E07F2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E07E2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift */; };
+		AAE2E0842BFFD14A002ED385 /* CDTeam+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E0802BFFD14A002ED385 /* CDTeam+CoreDataClass.swift */; };
+		AAE2E0852BFFD14A002ED385 /* CDTeam+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E0812BFFD14A002ED385 /* CDTeam+CoreDataProperties.swift */; };
+		AAE2E0862BFFD14A002ED385 /* CDPlayer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E0822BFFD14A002ED385 /* CDPlayer+CoreDataClass.swift */; };
+		AAE2E0872BFFD14A002ED385 /* CDPlayer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E0832BFFD14A002ED385 /* CDPlayer+CoreDataProperties.swift */; };
 		AAF8FB1F2BD39D980026F2CE /* goalkeeper-50.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF8FB1E2BD39D980026F2CE /* goalkeeper-50.png */; };
 		AAF8FB212BD3AC310026F2CE /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8FB202BD3AC310026F2CE /* PlayerViewController.swift */; };
 		AAF8FB232BD3AD090026F2CE /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8FB222BD3AD090026F2CE /* Area.swift */; };
@@ -50,10 +50,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA176F192BFE53900045A625 /* CDTeam+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTeam+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AA176F1A2BFE53900045A625 /* CDTeam+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTeam+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AA176F1B2BFE53900045A625 /* CDPlayer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPlayer+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AA176F1C2BFE53900045A625 /* CDPlayer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPlayer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AA176F242BFE5B450045A625 /* MyTeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamsTableViewController.swift; sourceTree = "<group>"; };
 		AA18AD7C2BFD16E800773B72 /* Teammate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teammate.xcdatamodel; sourceTree = "<group>"; };
 		AA18B8112BD312AB00438826 /* SquadPlayerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadPlayerViewCell.swift; sourceTree = "<group>"; };
@@ -81,6 +77,10 @@
 		AAA22BF92BD1BCA80062E2A5 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		AAE2E07C2BFFB309002ED385 /* MyTeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamTableViewController.swift; sourceTree = "<group>"; };
 		AAE2E07E2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMyTeamTableViewController.swift; sourceTree = "<group>"; };
+		AAE2E0802BFFD14A002ED385 /* CDTeam+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTeam+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AAE2E0812BFFD14A002ED385 /* CDTeam+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTeam+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		AAE2E0822BFFD14A002ED385 /* CDPlayer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPlayer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AAE2E0832BFFD14A002ED385 /* CDPlayer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPlayer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AAF8FB1E2BD39D980026F2CE /* goalkeeper-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goalkeeper-50.png"; path = "../../../../../Downloads/icons8-goalkeeper-with-net-ios-17-outlined/goalkeeper-50.png"; sourceTree = "<group>"; };
 		AAF8FB202BD3AC310026F2CE /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		AAF8FB222BD3AD090026F2CE /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
@@ -108,10 +108,10 @@
 		AA176F212BFE54590045A625 /* CDModels */ = {
 			isa = PBXGroup;
 			children = (
-				AA176F192BFE53900045A625 /* CDTeam+CoreDataClass.swift */,
-				AA176F1A2BFE53900045A625 /* CDTeam+CoreDataProperties.swift */,
-				AA176F1B2BFE53900045A625 /* CDPlayer+CoreDataClass.swift */,
-				AA176F1C2BFE53900045A625 /* CDPlayer+CoreDataProperties.swift */,
+				AAE2E0802BFFD14A002ED385 /* CDTeam+CoreDataClass.swift */,
+				AAE2E0812BFFD14A002ED385 /* CDTeam+CoreDataProperties.swift */,
+				AAE2E0822BFFD14A002ED385 /* CDPlayer+CoreDataClass.swift */,
+				AAE2E0832BFFD14A002ED385 /* CDPlayer+CoreDataProperties.swift */,
 			);
 			path = CDModels;
 			sourceTree = "<group>";
@@ -340,13 +340,13 @@
 				AAF8FB212BD3AC310026F2CE /* PlayerViewController.swift in Sources */,
 				AAA22BF02BD1B4B10062E2A5 /* SquadPlayer.swift in Sources */,
 				AA727D222BD44D3A00949DCC /* UIViewExtensions.swift in Sources */,
+				AAE2E0842BFFD14A002ED385 /* CDTeam+CoreDataClass.swift in Sources */,
+				AAE2E0852BFFD14A002ED385 /* CDTeam+CoreDataProperties.swift in Sources */,
+				AAE2E0862BFFD14A002ED385 /* CDPlayer+CoreDataClass.swift in Sources */,
+				AAE2E0872BFFD14A002ED385 /* CDPlayer+CoreDataProperties.swift in Sources */,
 				AAA22BD82BD1AADE0062E2A5 /* AppDelegate.swift in Sources */,
-				AA176F1D2BFE53900045A625 /* CDTeam+CoreDataClass.swift in Sources */,
-				AA176F1E2BFE53900045A625 /* CDTeam+CoreDataProperties.swift in Sources */,
 				AA176F252BFE5B450045A625 /* MyTeamsTableViewController.swift in Sources */,
-				AA176F1F2BFE53900045A625 /* CDPlayer+CoreDataClass.swift in Sources */,
 				AAE2E07D2BFFB309002ED385 /* MyTeamTableViewController.swift in Sources */,
-				AA176F202BFE53900045A625 /* CDPlayer+CoreDataProperties.swift in Sources */,
 				AAA22BDA2BD1AADE0062E2A5 /* SceneDelegate.swift in Sources */,
 				AA18AD7D2BFD16E800773B72 /* Teammate.xcdatamodeld in Sources */,
 			);

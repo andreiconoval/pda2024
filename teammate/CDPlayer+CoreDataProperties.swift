@@ -2,7 +2,7 @@
 //  CDPlayer+CoreDataProperties.swift
 //  teammate
 //
-//  Created by user256828 on 5/22/24.
+//  Created by user256828 on 5/23/24.
 //
 //
 
@@ -18,7 +18,7 @@ extension CDPlayer {
 
     @NSManaged public var dateOfBirth: String?
     @NSManaged public var firstName: String?
-    @NSManaged public var id: Int16
+    @NSManaged public var id: Int32
     @NSManaged public var lastName: String?
     @NSManaged public var name: String?
     @NSManaged public var nationality: String?

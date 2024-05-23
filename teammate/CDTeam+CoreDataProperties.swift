@@ -2,7 +2,7 @@
 //  CDTeam+CoreDataProperties.swift
 //  teammate
 //
-//  Created by user256828 on 5/22/24.
+//  Created by user256828 on 5/23/24.
 //
 //
 
@@ -16,8 +16,8 @@ extension CDTeam {
         return NSFetchRequest<CDTeam>(entityName: "CDTeam")
     }
 
-    @NSManaged public var name: String?
     @NSManaged public var imageURL: String?
+    @NSManaged public var name: String?
     @NSManaged public var player: NSSet?
 
 }
