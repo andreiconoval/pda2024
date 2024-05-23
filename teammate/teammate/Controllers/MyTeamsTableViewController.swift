@@ -73,6 +73,16 @@ class MyTeamsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle:nil)
+        let teamController = storyboard.instantiateViewController(withIdentifier: "myTeamTable") as! MyTeamTableViewController
+       
+       teamController.team = self.teams![indexPath.row]
+       teamController.Navigation.title = self.teams![indexPath.row].name
+       // self.navigationController?.showDetailViewController(teamController, sender: nil)
+       self.navigationController?.pushViewController(teamController, animated: true)
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -110,6 +120,9 @@ class MyTeamsTableViewController: UITableViewController {
                 UITextField.placeholder = "Team image url"
                 UITextField.text = teamToUpdate.imageURL
             }
+            
+          
+            
             
             let submitButton = UIAlertAction(title: "Save", style: .default) { (action) in
                 let nameTextField = alert.textFields![0]

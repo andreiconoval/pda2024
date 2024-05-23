@@ -122,4 +122,18 @@ extension PlayersViewController: UITableViewDataSource {
         cell.configure(player: player)
         return cell
     }
+    
+     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+         let updateAction = UIContextualAction(style: .normal, title: "Add to my team"){
+            (action, view, completionHandler) in
+            let player = self.players[indexPath.row]
+
+            let storyboard = UIStoryboard(name: "Main", bundle:nil)
+            let teamController = storyboard.instantiateViewController(withIdentifier: "selectTeamTable") as! SelectMyTeamTableViewController
+           
+            teamController.player = self.players[indexPath.row]
+            self.navigationController?.showDetailViewController(teamController, sender: nil)
+        }
+        return UISwipeActionsConfiguration(actions: [updateAction])
+    }
 }

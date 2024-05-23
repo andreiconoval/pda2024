@@ -9,6 +9,26 @@ import UIKit
 
 extension UIViewController {
     
+    func showToast(message: String, font: UIFont) {
+        let toastLable = UILabel(frame:CGRect(x: self.view.frame.size.width/2-75, y: self.view.frame.size.width/2-100
+                                              , width: 150, height: 35))
+        toastLable.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        toastLable.textAlignment = .center
+        toastLable.textColor = .white
+        toastLable.font = font
+        toastLable.text = message
+        toastLable.alpha = 1.0
+        toastLable.layer.cornerRadius = 10
+        toastLable.clipsToBounds = true
+        self.view.addSubview(toastLable)
+        UIView.animate(withDuration: 4.0, delay: 0.1, options: .curveEaseIn ,animations:
+                        {
+            toastLable.alpha = 0.0
+        }, completion: {
+            (isCompleted) in toastLable.removeFromSuperview()
+        })
+    }
+    
     func loadImage(urlString: String, completion: @escaping (UIImage?) -> Void) {
             // Create URL object from string
             guard let url = URL(string: urlString) else {

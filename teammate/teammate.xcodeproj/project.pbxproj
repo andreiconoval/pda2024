@@ -34,6 +34,8 @@
 		AAA22BF02BD1B4B10062E2A5 /* SquadPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BEF2BD1B4B10062E2A5 /* SquadPlayer.swift */; };
 		AAA22BF22BD1B5290062E2A5 /* APIFootballClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BF12BD1B5290062E2A5 /* APIFootballClient.swift */; };
 		AAA22BFA2BD1BCA80062E2A5 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA22BF92BD1BCA80062E2A5 /* PlayersViewController.swift */; };
+		AAE2E07D2BFFB309002ED385 /* MyTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E07C2BFFB309002ED385 /* MyTeamTableViewController.swift */; };
+		AAE2E07F2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E07E2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift */; };
 		AAF8FB1F2BD39D980026F2CE /* goalkeeper-50.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF8FB1E2BD39D980026F2CE /* goalkeeper-50.png */; };
 		AAF8FB212BD3AC310026F2CE /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8FB202BD3AC310026F2CE /* PlayerViewController.swift */; };
 		AAF8FB232BD3AD090026F2CE /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8FB222BD3AD090026F2CE /* Area.swift */; };
@@ -77,6 +79,8 @@
 		AAA22BEF2BD1B4B10062E2A5 /* SquadPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadPlayer.swift; sourceTree = "<group>"; };
 		AAA22BF12BD1B5290062E2A5 /* APIFootballClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFootballClient.swift; sourceTree = "<group>"; };
 		AAA22BF92BD1BCA80062E2A5 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		AAE2E07C2BFFB309002ED385 /* MyTeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamTableViewController.swift; sourceTree = "<group>"; };
+		AAE2E07E2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMyTeamTableViewController.swift; sourceTree = "<group>"; };
 		AAF8FB1E2BD39D980026F2CE /* goalkeeper-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goalkeeper-50.png"; path = "../../../../../Downloads/icons8-goalkeeper-with-net-ios-17-outlined/goalkeeper-50.png"; sourceTree = "<group>"; };
 		AAF8FB202BD3AC310026F2CE /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		AAF8FB222BD3AD090026F2CE /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				AAF8FB202BD3AC310026F2CE /* PlayerViewController.swift */,
 				AAF8FB282BD3C5570026F2CE /* PlayerWebViewController.swift */,
 				AA176F242BFE5B450045A625 /* MyTeamsTableViewController.swift */,
+				AAE2E07C2BFFB309002ED385 /* MyTeamTableViewController.swift */,
+				AAE2E07E2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 				AAF8FB2E2BD3E2AE0026F2CE /* TeamParser.swift in Sources */,
 				AAF8FB2B2BD3E2710026F2CE /* TeamItem.swift in Sources */,
 				AAA22BEE2BD1B4500062E2A5 /* Team.swift in Sources */,
+				AAE2E07F2BFFB9AD002ED385 /* SelectMyTeamTableViewController.swift in Sources */,
 				AA70E5B12BD46B2C0057C12D /* UIViewControllerExtensions.swift in Sources */,
 				AA727D262BD45BDC00949DCC /* PlayerMatchesResult.swift in Sources */,
 				AAA22BFA2BD1BCA80062E2A5 /* PlayersViewController.swift in Sources */,
@@ -338,6 +345,7 @@
 				AA176F1E2BFE53900045A625 /* CDTeam+CoreDataProperties.swift in Sources */,
 				AA176F252BFE5B450045A625 /* MyTeamsTableViewController.swift in Sources */,
 				AA176F1F2BFE53900045A625 /* CDPlayer+CoreDataClass.swift in Sources */,
+				AAE2E07D2BFFB309002ED385 /* MyTeamTableViewController.swift in Sources */,
 				AA176F202BFE53900045A625 /* CDPlayer+CoreDataProperties.swift in Sources */,
 				AAA22BDA2BD1AADE0062E2A5 /* SceneDelegate.swift in Sources */,
 				AA18AD7D2BFD16E800773B72 /* Teammate.xcdatamodeld in Sources */,
