@@ -36,6 +36,15 @@ class MyTeamTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return self.players!.count
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle:nil)
+        let playersController = storyboard.instantiateViewController(withIdentifier: "playerview") as! PlayerViewController
+        playersController.title = self.players![indexPath.row].name
+        playersController.playerID = Int(self.players![indexPath.row].id)
+        self.navigationController?.pushViewController(playersController, animated: true)
+    
+    }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
