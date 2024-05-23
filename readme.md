@@ -22,6 +22,31 @@ Web view is a link to google with name of player
 
 ![Alt text](./simulator_screenshot_2172B845-70BD-41E7-8F9F-06EECFA4ED16.png)
 
+Core Data update
+
+Button to view personal teams
+![alt text](<Simulator Screenshot - iPhone 15 - 2024-05-23 at 21.54.19.png>)
+
+MyTeams table with actions
+
+![alt text](<Simulator Screenshot - iPhone 15 - 2024-05-23 at 21.54.40.png>)
+
+Add new team popup
+
+![alt text](<Simulator Screenshot - iPhone 15 - 2024-05-23 at 21.54.52.png>)
+
+Add player to my teams
+
+![alt text](<Simulator Screenshot - iPhone 15 - 2024-05-23 at 21.55.09.png>)
+
+Add player, teams view
+
+![alt text](<Simulator Screenshot - iPhone 15 - 2024-05-23 at 21.55.09.png>)
+
+Players notification of add or moving to another team
+
+![alt text](<Simulator Screenshot - iPhone 15 - 2024-05-23 at 21.55.20.png>)
+
 Project created by Conoval Andrei
 
 For PDA
